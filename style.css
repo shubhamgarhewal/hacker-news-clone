@@ -1,0 +1,112 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.smallContainer{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF6600;
+    align-items: center;
+    height: 25px;
+}
+.leftNav{
+    display: flex;
+    align-items: center;
+}
+.leftNav img{
+    width: 25px;
+    height: 25px;
+    padding-top: 4px;
+}
+.leftNav ul{
+    display: flex;
+    padding-left: 5px;
+}
+.hackerNews {
+padding-right: 10px;
+font-weight: bold;
+}
+.leftNav li {
+    list-style: none;
+    padding-right: 10px;
+}
+.leftNav a{
+    text-decoration: none;
+    color: black;
+}
+.rightNav a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+.mainPage{
+    display: flex;
+    flex-direction: column;background-color: #F6F6EF;
+
+}
+.mainContent{
+display: flex;
+
+}
+.mainContent ol{
+    color: #828282;
+    padding-left: 28px;
+}
+.mainContent a{
+    text-decoration: none;
+    color: black;
+}
+.mainContent p{
+    font-size: 12px;
+    margin-top: 4px;
+}
+.smallLink a {
+    text-decoration: underline;
+    color: #828282;
+}
+
+hr{
+    width: 100%;
+    height: 3px;
+    border: none;
+    background-color: #FF6600;
+}   
+.bottomMainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bottomMainContent ul{
+    display: flex;
+    padding-left: 0px;
+}
+.bottomMainContent ul li{
+    padding-right: 5px;
+}
+.bottomMainContent li{
+    list-style: none;
+}
+.bottomMainContent a{
+    text-decoration: none;
+    color: black;
+}
+form input{
+    width: 190px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+label {
+    color: #828282;
+}
